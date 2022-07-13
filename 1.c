@@ -7,8 +7,8 @@ int main(void)
 	printf("n = ");
 	scanf("%d", &n);
 
-	if (n & 1 == 0) {
-		printf("%d ‚Í‹ô”‚Å‚·\n", n);
+	if ((n & 1) == 0) {
+		printf("%d ã¯å¶æ•°ã§ã™\n", n);
 	}
 	return 0;
 }
